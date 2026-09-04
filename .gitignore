@@ -1,0 +1,10 @@
+# Ignore Python cache & temporary files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Ignore large raw datasets and training run caches
+raw_data/
+dataset/
+runs/
+yolov8n.pt
